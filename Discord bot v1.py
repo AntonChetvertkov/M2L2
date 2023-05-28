@@ -8,7 +8,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 bot = commands.Bot(command_prefix='*', intents=intents)
-openai.api_key = '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'
+openai.api_key = 'token'
 
 def idea():
     return random.choice(['1. Не использовать маленькие батарейки, а использовать зарядки для аккумуляторов.', '2. Не выбрасывать батарейки, а утилизировать их в спец. пункты.', '3. Использовать экологичные материалы, которые не загрязняют природу.', '4. Сортировать мусор.', '5. Использовать только безвредные для природы устройства', '6.ездить на электрических машинах', '7.поставить солнечные панели на крышу'])
@@ -41,4 +41,4 @@ async def chat(ctx, *, message):
 
     await ctx.send(reply)
 
-bot.run("MTEwNDY3MzU1NzQ0NDg0MTU0Mw.GUpD40.A1huZrGcIBNj0qQwqx6DZc5KahiFDt8ZUbZ9GE")
+bot.run("token")
