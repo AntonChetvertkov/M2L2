@@ -5,6 +5,7 @@ from discord.ext import commands
 from bot_logic import gen_pass
 from bot_logic import roll_dice
 from bot_logic import guess_number
+from bot_logic import guess_number
 
 # Переменная intents - хранит привилегии бота
 intents = discord.Intents.default()
